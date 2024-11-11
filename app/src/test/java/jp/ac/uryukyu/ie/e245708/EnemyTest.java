@@ -20,6 +20,6 @@ class EnemyTest {
         demoHero.attack(slime);
         if(slime.dead == false)
             {slime.attack(demoHero);};
-        assertEquals(defaultHeroHp, demoHero.hitPoint);
+        assertEquals(defaultHeroHp, demoHero.getHitPoint());
     }
 }
