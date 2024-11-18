@@ -24,15 +24,35 @@ public class Hero {
         this.attack = attack;
     }
     */
+    /**
+     * getNameメソッド
+     * 自分の名前(name)を取得する
+     * @return 自分の名前
+     */
     public String getName(){
         return this.name;
     }
+    /**
+     * getHitPointメソッド
+     * 自分のHP(hitPoint)を取得する
+     * @return 自分のHP
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
+    /**
+     * getAttackメソッド
+     * 自分の攻撃力(attack)を取得する
+     * @return 自分の攻撃力
+     */
     public int getAttack(){
         return this.attack;
     }
+    /**
+     * getDeadメソッド
+     * 自分の生死の状態(dead)を取得する
+     * @return 自分の生死(dead)
+     */
     public boolean getDead(){
         return this.dead;
     }
@@ -58,7 +78,7 @@ public class Hero {
      */
     public void attack(Enemy e){
         int damage = (int)(Math.random() * attack);
-        System.out.printf("%sの攻撃！%sに%dのダメージを与えた！！\n", name, e.name, damage);
+        System.out.printf("%sの攻撃！%sに%dのダメージを与えた！！\n", name, e.getName(), damage);
         e.wounded(damage);
     }
 

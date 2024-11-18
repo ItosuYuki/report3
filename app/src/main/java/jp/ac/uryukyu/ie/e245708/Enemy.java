@@ -9,11 +9,43 @@ package jp.ac.uryukyu.ie.e245708;
  * Created by tnal on 2016/11/13.
  */
 public class Enemy {
-    public String name;
-    public int hitPoint;
-    public int attack;
-    public boolean dead;
+    private String name;
+    private int hitPoint;
+    private int attack;
+    private boolean dead;
 
+    /**
+     * getNameメソッド
+     * 自分の名前(name)を取得する
+     * @return 自分の名前
+     */
+    public String getName(){
+        return this.name;
+    }
+    /**
+     * getHitPointメソッド
+     * 自分のHP(hitPoint)を取得する
+     * @return 自分のHP
+     */
+    public int getHitPoint(){
+        return this.hitPoint;
+    }
+    /**
+     * getAttackメソッド
+     * 自分の攻撃力(attack)を取得する
+     * @return 自分の攻撃力
+     */
+    public int getAttack(){
+        return this.attack;
+    }
+    /**
+     * getDeadメソッド
+     * 自分の生死の状態(dead)を取得する
+     * @return 自分の生死(dead)
+     */
+    public boolean getDead(){
+        return this.dead;
+    }
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
      * @param name モンスター名
