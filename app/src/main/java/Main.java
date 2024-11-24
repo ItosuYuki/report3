@@ -1,5 +1,5 @@
 import jp.ac.uryukyu.ie.e245708.*;
-
+//report4
 public class Main {
     public static void main(String[] args){
         Hero hero = new Hero("勇者", 10, 5);
