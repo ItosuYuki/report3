@@ -53,6 +53,14 @@ public class LivingThing {
         this.dead = dead;
     }
     /**
+     * setHitPointメソッド
+     * 自分のHP(hitPoint)を変更する
+     * @param hitPoint
+     */
+    public void setHitPoint(int hitPoint){
+        this.hitPoint = hitPoint;
+    }
+    /**
      * LivingThingへ攻撃するメソッド。
      * attackに応じて乱数でダメージを算出し、opponent.wounded()によりダメージ処理を実行。
      * @param opponent 攻撃対象
