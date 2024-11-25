@@ -10,7 +10,6 @@ package jp.ac.uryukyu.ie.e245708;
  */
 public class Enemy extends LivingThing{
     int hitPoint = getHitPoint();
-    boolean dead = isDead();
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
      * @param name モンスター名
