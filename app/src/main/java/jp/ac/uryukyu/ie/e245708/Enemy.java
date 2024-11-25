@@ -9,7 +9,6 @@ package jp.ac.uryukyu.ie.e245708;
  * Created by tnal on 2016/11/13.
  */
 public class Enemy extends LivingThing{
-    int hitPoint = getHitPoint();
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
      * @param name モンスター名
