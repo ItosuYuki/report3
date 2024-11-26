@@ -45,6 +45,14 @@ public class LivingThing {
         return this.hitPoint;
     }
     /**
+     * getAttackメソッド
+     * 自分の攻撃力(attack)を取得する
+     * @return 自分の攻撃力
+     */
+    public int getAttack(){
+        return this.attack;
+    }
+    /**
      * setDeadメソッド
      * 自分の生死の状況(dead)を変更する
      * @param dead
