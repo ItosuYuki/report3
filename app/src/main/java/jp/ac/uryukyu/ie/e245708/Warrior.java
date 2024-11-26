@@ -7,7 +7,7 @@ package jp.ac.uryukyu.ie.e245708;
  *  int attack; //戦士の攻撃力
  *  boolean dead; //戦士の生死状態。true=死亡。
  */
-public class Warrior extends LivingThing{
+public class Warrior extends Hero{
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
      * @param name 戦士名
